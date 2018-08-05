@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { DOCUMENT, Location } from '@angular/common';
 
 @Component({
   selector: 'se-shell',
@@ -7,9 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShellComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router,
+    private location: Location,
+    @Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
+    console.log('Shell compoenent');
+    this.checkUrlForOverlay();
+    this.router.events.subscribe(v=> {
+      if(v instanceof NavigationEnd) {
+        this.checkUrlForOverlay();
+      }
+    })
   }
 
+  private checkUrlForOverlay() {
+    if (this.location.path().includes('home')) {
+      this.document.body.id = 'bg-img';  
+    }
+    else {
+      this.document.body.id = 'none-img';
+    }
+  }
 }

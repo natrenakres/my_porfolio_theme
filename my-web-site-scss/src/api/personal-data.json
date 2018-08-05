@@ -1,0 +1,99 @@
+ [
+    {
+      "date": "July 2016 - Current",
+      "department": "Senior Software Developer",
+      "title": "Ludwig Maximilian University of Munich",
+      "where": "in Munich, Germany",
+      "description": "jQuery, JSON, OOP, Angularjs 1.x.x, Typescript, Gulp, JAVA, Jersey, JAX-RS, Webpack, Babel, CSS, Foundation, SASS",
+      "links": [
+        {
+          "link": "http://www.lmu.de",
+          "text": "www.lmu.de"
+        }
+      ]
+    },
+    {
+      "date": "June 2013 - February 2016",
+      "department": "Senior Software Developer/Team Leader/Manager",
+      "title": "Çiçeksepeti Internet Hizmetleri A.S.",
+      "where": "in Istanbul, Turkey",
+      "description": "SCRUM, TFS, ASP.NEt MVC, C#, LINQ, Code Smith, AWS, ASP.NET Web API, Dependency Injection, Factory Design Pattern, Ninject, AutoFac, Amazon Cloud, TDD, Mobile Development (Phonegap, IONIC), jQuery, JSON, OOP, Angularjs, Typescript",
+      "links": [
+        {
+          "link": "http://www.ciceksepeti.com",
+          "text": "www.ciceksepeti.com"
+        },
+        {
+          "link": "http://www.mizu.com",
+          "text": "www.mizu.com"
+        }
+      ]
+    },
+    {
+      "date": "January - June 2013",
+      "department": "Senior Analyst Developer",
+      "title": "Nuevo Softwarehouse",
+      "where": "in Istanbul, Turkey",
+      "description": "D2C Dealer to Consumer C# application, Windows Service, SAP, C], LINQ"
+    },
+    {
+      "date": "Agust 2011 - January 2013",
+      "department": "Senior Software Specialist",
+      "title": "Mobilera Holding B.V,",
+      "where": "in Istanbul, Turkey",
+      "description": "Istanbul Shopping Fest Official Web Site Unilever-Becel Official Web Site  Mobilera Content Management System MS SQL Server 2008, MVC.NET 3.0, 2.0, ASP.NET 3.5, WCF, C#, LINQ, .NET Framework 4.0, Entity framework, Code First, AJAX, Javascript, XHTML, CSS , JQUERY, Visual Studio 2010",
+      "links": [
+        {
+          "link": "http://www.istshopfest.com",
+          "text": "www.istshopfest.com"
+        },
+        {
+          "link": "http://www.becel.com.tr",
+          "text": "www.becel.com"
+        }
+      ]
+    },
+    {
+      "date": "Septamber 2010 - Agust 2011",
+      "department": "Senior Software Specialist",
+      "title": "Horoz Logistics,",
+      "where": "in Istanbul, Turkey",
+      "description": "Storage Resource Management projects Product Ordering and tracking Supplier Reservation Systems All projects included www.horoz.com.tr and http://kurumsal.horoz.com.tr - ORACLE 11g, PL-SQL, ASP.NET 3.5, .NET Framework 4.0, C], LINQ, AJAX, JSON, XML, Visual Studio 2008, 2010"
+    },
+    {
+      "date": "Novamber 2009 - Septamber 2010",
+      "department": "Software Specialist",
+      "title": "Dogan Online,",
+      "where": "in Istanbul, Turkey",
+      "description": "MS SQL Server 2008, T-SQL, ASP.NET 3.5, C], AJAX, JSON, LINQ, XML, XHTML, JavaScript, CSS, Google Map API, Bing Map API"
+    },
+    {
+      "date": "June 2005 - Agust 2009",
+      "department": "Software Developer",
+      "title": "Digiturk,",
+      "where": "in Istanbul, Turkey",
+      "description": "ASP.NET, MS SQL Server 2000, 2005, C], AJAX, JSON, T-SQL, XHTML, CSS, JavaScript, RSS, SOAP, Windows Services ITV (Interactive Channels)",
+      "links": [
+        {
+          "link": "http://www.ligtv.com.tr",
+          "text": "www.ligtv.com.tr"
+        },
+        {
+          "link": "http://macmerkezi.ligtv.com.tr",
+          "text": "macmerkezi.ligtv.com.tr"
+        },
+        {
+          "link": "http://fantazifutbol.ligtv.com.tr",
+          "text": "fantazifutbol.ligtv.com.tr"
+        },
+        {
+          "link": "http://adminpanel.ligtv.com.tr",
+          "text": "adminpanel.ligtv.com.tr"
+        },
+        {
+          "link": "http://www.digiturkwebtv.com.tr",
+          "text": "www.digiturkwebtv.com.tr"
+        }
+      ]
+    }
+  ]

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PersonalService } from '../../portfolio/about/personal.service';
+import { Person } from '../../portfolio/models/person';
 
 @Component({
   selector: 'se-home',
@@ -6,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }

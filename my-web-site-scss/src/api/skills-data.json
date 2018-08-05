@@ -1,0 +1,22 @@
+ [
+    {
+      "title": "Database",
+      "text": "Ms SQL Server, T-SQL, SQL (MS SQl Server, MongoDb, NoSql, Elasticsearch(https://bonsai.io/))"
+    },
+    {
+      "title": "Front-end",
+      "text": "JavaScript (Angular.js, (Grunt or Gulp), Typescript, JQuery, Node.js), CSS, LESS, Bootstrap Framework"
+    },
+    {
+      "title": "Back-end",
+      "text": "ASP.NET MVC, C#, ASP.NET Web API, C#, Dependency Injection (Ninject, AutoFac, Castle Windsor) SOA (Microservices) OOP (SOLID Principles)"
+    },
+    {
+      "title": "Devops",
+      "text": "AWS (EC2, RDS, SQS, ElastiCache) Continuous Integration / Delivery (TFS, Git, Octopus, Teamcity, Visual Studio Cominty, JIRA)"
+    },
+    {
+      "title": "Agile",
+      "text": "Agile (SCRUM, Kanban, Scrum Master)"
+    }
+  ]

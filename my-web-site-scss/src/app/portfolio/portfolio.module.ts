@@ -3,7 +3,9 @@ import { AboutComponent } from "./about/about.component";
 import { ContactComponent } from "./contact/contact.component";
 import { WorkComponent } from "./work/work.component";
 import { SharedModule } from "../shared/shared.module";
-import { Routes, RouterModule } from "../../../node_modules/@angular/router";
+import { Routes, RouterModule } from "@angular/router";
+import { WorkService } from "./work/work.service";
+import { PersonalService } from "./about/personal.service";
 
 const routes: Routes = [
   { path: "about", component: AboutComponent },
@@ -14,6 +16,10 @@ const routes: Routes = [
 
 @NgModule({
   imports: [SharedModule, RouterModule.forChild(routes)],
-  declarations: [AboutComponent, ContactComponent, WorkComponent]
+  declarations: [AboutComponent, ContactComponent, WorkComponent],
+  providers: [
+    WorkService,
+    PersonalService
+  ]
 })
 export class PortfolioModule {}

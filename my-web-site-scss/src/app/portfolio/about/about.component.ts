@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PersonalService } from './personal.service';
+import { Person } from '../models/Person';
 
 @Component({
   selector: 'se-about',
@@ -6,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-
-  constructor() { }
+  experiences: Person[] | null;
+  constructor(private personService: PersonalService) { }
 
   ngOnInit() {
+    this.personService.getPerson().subscribe(x=> this.experiences = x);
   }
 
 }

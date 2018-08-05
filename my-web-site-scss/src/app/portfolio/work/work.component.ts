@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { WorkService } from './work.service';
+import { Work } from '../models/work';
 
 @Component({
   selector: 'se-work',
@@ -6,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work.component.scss']
 })
 export class WorkComponent implements OnInit {
-
-  constructor() { }
+  works:Work[] | null;
+  constructor(private workService: WorkService) { }
 
   ngOnInit() {
+    this.workService.getWorks().subscribe(works => this.works = works);
   }
 
 }

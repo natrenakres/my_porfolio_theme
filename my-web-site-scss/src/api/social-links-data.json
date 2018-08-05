@@ -1,0 +1,27 @@
+ [
+    {
+      "title": "LinkedIn",
+      "src": "img/svg/linkedin.svg",
+      "link": "https://www.linkedin.com/in/serkanertan88"
+    },
+    {
+      "title": "Github",
+      "src": "img/svg/github-circle.svg",
+      "link": "https://github.com/natrenakres"
+    },
+    {
+      "title": "Stackoverflow",
+      "src": "img/svg/stackoverflow.svg",
+      "link": "http://stackoverflow.com/users/2145063/natrenakres"
+    },
+    {
+      "title": "Twitter",
+      "src": "img/svg/twitter.svg",
+      "link": "https://twitter.com/serkanertan88"
+    },
+    {
+      "title": "Xing",
+      "src": "img/svg/xing.svg",
+      "link": "https://www.xing.com/profile/Serkan_Ertan"
+    }
+  ]

@@ -1,64 +1,21 @@
 <main id="projects">
   <h1 class="lg-heading">My
-    <span class="text-secondary">Work</span>
+    <span class="text-secondary">Works</span>
   </h1>
-  <h2 class="sm-heading">Checkout some of my projects...</h2>
+  <h2 class="sm-heading">Checkout some of my projects:</h2>
   <div class="projects">
-    <div class="item">
-      <a href="#!">
-        <img src="assets/img/projects/project1.jpg" alt="Project">
+    <div class="item" *ngFor="let work of works">
+      <a href="{{work.url}}" target="_balank">
+        <img [src]="work.thumbUrl" alt="Project">
       </a>
-      <a href="#" class="btn-light">
-        <i class="fas fa-eye"></i> Project 1
+      <a href="{{work.url}}" target="_balank" class="btn-light">
+        <i class="fa fa-eye"></i> {{work.caption}}
       </a>
-      <a href="#" class="btn-dark">
-        <i class="fab fa-github"></i> Github
-      </a>
-    </div>
-    <div class="item">
-      <a href="#!">
-        <img src="assets/img/projects/project2.jpg" alt="Project">
-      </a>
-      <a href="#" class="btn-light">
-        <i class="fas fa-eye"></i> Project 2
-      </a>
-      <a href="#" class="btn-dark">
-        <i class="fab fa-github"></i> Github
+      <a *ngIf="work.githubUrl" href="{{work.githubUrl}}" class="btn-dark">
+        <i class="fa fa-github"></i> {{ work.caption}} 
       </a>
     </div>
-    <div class="item">
-      <a href="#!">
-        <img src="assets/img/projects/project3.jpg" alt="Project">
-      </a>
-      <a href="#" class="btn-light">
-        <i class="fas fa-eye"></i> Project 3
-      </a>
-      <a href="#" class="btn-dark">
-        <i class="fab fa-github"></i> Github
-      </a>
-    </div>
-    <div class="item">
-      <a href="#!">
-        <img src="assets/img/projects/project4.jpg" alt="Project">
-      </a>
-      <a href="#" class="btn-light">
-        <i class="fas fa-eye"></i> Project 4
-      </a>
-      <a href="#" class="btn-dark">
-        <i class="fab fa-github"></i> Github
-      </a>
-    </div>
-    <div class="item">
-      <a href="#!">
-        <img src="assets/img/projects/project5.jpg" alt="Project">
-      </a>
-      <a href="#" class="btn-light">
-        <i class="fas fa-eye"></i> Project 5
-      </a>
-      <a href="#" class="btn-dark">
-        <i class="fab fa-github"></i> Github
-      </a>
-    </div>
+    
   </div>
 
 </main>

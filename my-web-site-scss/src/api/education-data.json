@@ -1,0 +1,22 @@
+ [
+    {
+      "date": "Septamber 2006 - Septamber 2008",
+      "department": "M.Sc., Information Technology",
+      "title": "Sabancı University",
+      "where": "in Istanbul, Turkey",
+      "description": "Final Project: http://macmerkezi.ligtv.com.tr",
+      "links": [
+        {
+          "link": "http://macmerkezi.ligtv.com.tr",
+          "text": "macmerkezi.ligtv.com.tr"
+        }
+      ]
+    },
+    {
+      "date": "Septamber 1999 - June 2006",
+      "department": "B.Sc., Statistics",
+      "title": "Yıldız Technical University",
+      "where": "in Istanbul, Turkey",
+      "description": "Final Project: Homotopy, topology"
+    }
+  ]

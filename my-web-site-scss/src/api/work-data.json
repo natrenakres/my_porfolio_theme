@@ -1,0 +1,58 @@
+[
+      {
+        "id": "modal1",
+        "thumbUrl": "assets/img/works/mizu2.png",
+        "url": "http://www.mizu.com",
+        "caption": "Mizu.com online shopping site"
+      },
+      {
+        "id": "modal3",
+        "thumbUrl": "assets/img/works/cckweb.png",
+        "url": "http://www.ciceksepeti.com",
+        "caption": "Online Flower Delivery"
+      },
+      {
+        "id": "modal5",
+        "thumbUrl": "assets/img/works/boschdd2.png",
+        "url": "",
+        "caption": "Dealer to customer windows service application"
+      },
+      {
+        "id": "modal6",
+        "thumbUrl": "assets/img/works/isf.png",
+        "url": "http://www.istshopfest.com.tr",
+        "caption": "Istanbul Shopping Fast 2013"
+      },
+      {
+        "id": "modal7",
+        "thumbUrl": "assets/img/works/isf1.png",
+        "url": "http://www.istshopfest.com.tr",
+        "caption": "Istanbul Shopping Fast 2013"
+      },
+      {
+        "id": "modal10",
+        "thumbUrl": "assets/img/works/becel.png",
+        "url": "http://www.becel.com.tr",
+        "caption": "Unilever - Becel"
+      },            
+      {
+        "id": "modal13",
+        "thumbUrl": "assets/img/works/map1.png",
+        "url": "",
+        "caption": "sehir.ekloay.net/harita"
+      }, 
+      {
+        "id": "modal15",
+        "thumbUrl": "assets/img/works/ligtv.png",
+        "url": "http://www.ligtv.com.tr",
+        "caption": "ligtv.com.tr"
+      },
+      {
+        "id": "modal16",
+        "thumbUrl": "assets/img/works/Macmerkezi_.png",
+        "url": "",
+        "caption": "macmerkezi.ligtv.com.tr"
+      }
+    ]
+    
+    
