@@ -7,18 +7,17 @@
     <img src="assets/img/large-bw.jpg" alt="John Doe" class="bio-image">
     <div class="bio">
       <h3 class="text-secondary">BIO</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsum suscipit facere, error iste tenetur odio voluptate
-        delectus ducimus quae, eius magni facilis minus. Magnam consectetur sit possimus maxime quos?
+      <p>I am a full-stack developer. I studied Statistics in Bachelor and IT in MSc. I have over ten years working experience in web and mobile projects which are related to Digital broadcasting, Logistics, E-commerce, and Education.     I am currently working as a senior software developer at LMU Munich.
       </p>
     </div>
     <div class="job" *ngFor="let exp of experiences">
       <h3>{{exp.title}}</h3>
-      <h6>{{exp.department}}</h6>
+      <h4 class="text-secondary">{{exp.department}}</h4>
       <p>
         {{exp.description}}
       </p>
     </div>
-    
+
   </div>
 
 </main>

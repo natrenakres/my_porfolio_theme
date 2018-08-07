@@ -2,7 +2,7 @@
   <h1 class="lg-heading">My
     <span class="text-secondary">Works</span>
   </h1>
-  <h2 class="sm-heading">Checkout some of my projects:</h2>
+  <h2 class="sm-heading">Checkout some of my projects...</h2>
   <div class="projects">
     <div class="item" *ngFor="let work of works">
       <a href="{{work.url}}" target="_balank">
@@ -12,10 +12,10 @@
         <i class="fa fa-eye"></i> {{work.caption}}
       </a>
       <a *ngIf="work.githubUrl" href="{{work.githubUrl}}" class="btn-dark">
-        <i class="fa fa-github"></i> {{ work.caption}} 
+        <i class="fa fa-github"></i> {{ work.caption}}
       </a>
     </div>
-    
+
   </div>
 
 </main>

@@ -14,7 +14,7 @@
     },
     {
       "date": "June 2013 - February 2016",
-      "department": "Senior Software Developer/Team Leader/Manager",
+      "department": "Senior Software Developer / Team Leader / Manager",
       "title": "Çiçeksepeti Internet Hizmetleri A.S.",
       "where": "in Istanbul, Turkey",
       "description": "SCRUM, TFS, ASP.NEt MVC, C#, LINQ, Code Smith, AWS, ASP.NET Web API, Dependency Injection, Factory Design Pattern, Ninject, AutoFac, Amazon Cloud, TDD, Mobile Development (Phonegap, IONIC), jQuery, JSON, OOP, Angularjs, Typescript",
@@ -39,7 +39,7 @@
     {
       "date": "Agust 2011 - January 2013",
       "department": "Senior Software Specialist",
-      "title": "Mobilera Holding B.V,",
+      "title": "Mobilera Holding B.V",
       "where": "in Istanbul, Turkey",
       "description": "Istanbul Shopping Fest Official Web Site Unilever-Becel Official Web Site  Mobilera Content Management System MS SQL Server 2008, MVC.NET 3.0, 2.0, ASP.NET 3.5, WCF, C#, LINQ, .NET Framework 4.0, Entity framework, Code First, AJAX, Javascript, XHTML, CSS , JQUERY, Visual Studio 2010",
       "links": [
@@ -56,21 +56,21 @@
     {
       "date": "Septamber 2010 - Agust 2011",
       "department": "Senior Software Specialist",
-      "title": "Horoz Logistics,",
+      "title": "Horoz Logistics",
       "where": "in Istanbul, Turkey",
       "description": "Storage Resource Management projects Product Ordering and tracking Supplier Reservation Systems All projects included www.horoz.com.tr and http://kurumsal.horoz.com.tr - ORACLE 11g, PL-SQL, ASP.NET 3.5, .NET Framework 4.0, C], LINQ, AJAX, JSON, XML, Visual Studio 2008, 2010"
     },
     {
       "date": "Novamber 2009 - Septamber 2010",
       "department": "Software Specialist",
-      "title": "Dogan Online,",
+      "title": "Dogan Online",
       "where": "in Istanbul, Turkey",
       "description": "MS SQL Server 2008, T-SQL, ASP.NET 3.5, C], AJAX, JSON, LINQ, XML, XHTML, JavaScript, CSS, Google Map API, Bing Map API"
     },
     {
       "date": "June 2005 - Agust 2009",
       "department": "Software Developer",
-      "title": "Digiturk,",
+      "title": "Digiturk",
       "where": "in Istanbul, Turkey",
       "description": "ASP.NET, MS SQL Server 2000, 2005, C], AJAX, JSON, T-SQL, XHTML, CSS, JavaScript, RSS, SOAP, Windows Services ITV (Interactive Channels)",
       "links": [

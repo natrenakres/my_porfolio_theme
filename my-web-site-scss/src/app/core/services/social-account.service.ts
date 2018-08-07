@@ -10,6 +10,6 @@ export class SocialAccountService {
   constructor(private http: HttpClient) { }
 
   getSocialAccounts(): Observable<any[]> {
-    return this.http.get<any[]>('./api/social-links-data-json');
+    return this.http.get<any[]>('./api/social-links-data.json');
   }
 }

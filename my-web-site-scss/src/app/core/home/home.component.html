@@ -2,19 +2,11 @@
   <h1 class="lg-heading">Serkan
     <span class="text-secondary">Ertan</span>
   </h1>
-  <h2 class="sm-heading">Software Developer, Javascript, C#, ASP.NET, J2EE, Angular...</h2>
+  <h2 class="sm-heading">Software Developer, Javascript, C#, Java, ASP.NET, J2EE, Angular...</h2>
   <div class="icons">
-    <a href="#!">
-      <i class="fa fa-twitter fa-2x"></i>
+    <a href="{{social.link}}" target="_blank" title="{{social.title}}" *ngFor="let social of socialAccounts">
+      <i class="{{'fa ' + social.src + ' fa-2x'}} "></i>
     </a>
-    <a href="#!">
-      <i class="fa fa-facebook fa-2x"></i>
-    </a>
-    <a href="#!">
-      <i class="fa fa-linkedin fa-2x"></i>
-    </a>
-    <a href="#!">
-      <i class="fa fa-github fa-2x"></i>
-    </a>
+
   </div>
 </main>
