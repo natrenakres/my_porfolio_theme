@@ -19,13 +19,15 @@ export class ShellComponent implements OnInit {
     this.router.events.subscribe(v=> {
       if(v instanceof NavigationEnd) {
         this.checkUrlForOverlay();
-      }
+        (<any>window).ga('set', 'page', v.urlAfterRedirects);
+        (<any>window).ga('send', 'pageview');
+        }
     })
   }
 
   private checkUrlForOverlay() {
     if (this.location.path().includes('home')) {
-      this.document.body.id = 'bg-img';  
+      this.document.body.id = 'bg-img';
     }
     else {
       this.document.body.id = 'none-img';
