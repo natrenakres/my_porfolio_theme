@@ -1,0 +1,246 @@
+.skill-container{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skill-container h1{
+  margin-bottom: 1rem;
+}
+
+.accordion {
+  background: #444;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  height: 200px;
+  font-size: 0;
+  padding: 0;
+}
+
+.tab {
+  display: inline-block;
+  background-color: #333;
+  border-right: #444 solid 1px;
+  width: 80px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.tab:hover {
+  width: 440px;
+}
+
+.tab:hover .skill a:before {
+  margin-left: -100px;
+}
+.tab:hover .skill a:after {
+  margin-left: -5px;
+}
+
+.tab .content {
+  background: #222;
+  width: 360px;
+  height: 200px;
+  margin-left: 80px;
+  position: relative;
+  padding: 50px 0 0 15px;
+
+}
+
+.tab .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #bbb;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+
+.tab .content .level {
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  padding-right: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+}
+
+.tab .content .percent {
+  color: #888;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.tab .content .verified {
+  display: block;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #888;
+  font-weight: 400;
+  margin-top: 1rem;
+  border-top: 1px solid #181818;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.tab .content .expert {
+  color: #26C1FB;
+}
+
+.tab .content .proficient {
+  color: #86CE21;
+}
+
+.tab .gradient  {
+  width: 100%;
+  height: 3px;
+  background-color: #FFC200;
+  background: -webkit-gradient(linear, left bottom, right bottom, color-stop(0%, #FFC200), color-stop(50%, #8BC53F), color-stop(100%, #26C1FB));
+}
+
+.skill a:before,
+.skill a:after {
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 80px;
+  height: 200px;
+  position: absolute;
+  text-indent: 0;
+  padding-top: 90px;
+  padding-left: 25px;
+  display: block;
+  font: normal 30px 'Font Awesome 5 Free';
+  color: #fff;
+}
+
+.skill a:after {
+  font-size: 49px;
+  padding-left: 20px;
+  padding-top: 80px;
+  margin-left: 85px;
+
+}
+
+/* Add Icons */
+
+.angular a:before,
+.angular a:after {
+  content: '\f420';
+}
+
+.angular a:after {
+  background-color: #c3002f;
+}
+
+.asp-net-core a:before,
+.asp-net-core a:after {
+  content: '\f3ca';
+
+}
+
+.asp-net-core a:after {
+  background-color: #2a93db;
+}
+
+.asp-net a:before,
+.asp-net a:after {
+  content: '\f3ca'
+}
+
+.asp-net a:after {
+  background-color: #2a93db;
+}
+
+
+.javascript a:before,
+.javascript a:after {
+  content: '\f3b8'
+}
+
+.javascript a:after {
+  background-color: #f5de19;
+}
+
+
+.react a:before,
+.react a:after {
+  content: '\f41b'
+}
+
+.react a:after {
+  background-color: #61dafb;
+}
+
+.angular-js a:before,
+.angular-js a:after {
+  content: '\f420'
+}
+
+.angular-js a:after {
+  background-color: #dd0031;
+}
+
+
+@media(max-width: 950px) {
+  .container {
+    width: 70%;
+  }
+
+  .tab {
+    display: block;
+    width: 100%;
+    border-bottom: 3px #333 solid;
+  }
+
+  .accordion {
+    display: block;
+    min-width: 440px;
+    height: auto;
+  }
+
+  .tab .content {
+    width: 90%;
+    padding: 30px 0 0 15px;
+  }
+  .tab:hover {
+    width: 100%;
+  }
+}
+
+@media(max-width: 680px)  {
+  .container {
+    width: 95%;
+
+  }
+
+  .accordion {
+    width: 100%;
+    min-width: 350px;;
+  }
+
+}
+
+@media(max-width: 768px) {
+  .skill a:before,
+  .skill a:after {
+    padding-left: 5px;
+  }
+}
+
+@media(max-width: 425px) {
+  .skill a:before,
+  .skill a:after {
+    padding-left: 5px;
+  }
+
+  .tab .content h1{
+    font-size: 24px;
+  }
+
+  .tab .content {
+    width: 78%;
+    padding: 30px 0 0 0;
+  }
+}

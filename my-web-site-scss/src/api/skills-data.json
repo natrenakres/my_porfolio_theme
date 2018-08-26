@@ -1,22 +1,45 @@
  [
     {
-      "title": "Database",
-      "text": "Ms SQL Server, T-SQL, SQL (MS SQl Server, MongoDb, NoSql, Elasticsearch(https://bonsai.io/))"
-    },
-    {
-      "title": "Front-end",
-      "text": "JavaScript (Angular.js, (Grunt or Gulp), Typescript, JQuery, Node.js), CSS, LESS, Bootstrap Framework"
-    },
-    {
-      "title": "Back-end",
-      "text": "ASP.NET MVC, C#, ASP.NET Web API, C#, Dependency Injection (Ninject, AutoFac, Castle Windsor) SOA (Microservices) OOP (SOLID Principles)"
-    },
-    {
-      "title": "Devops",
-      "text": "AWS (EC2, RDS, SQS, ElastiCache) Continuous Integration / Delivery (TFS, Git, Octopus, Teamcity, Visual Studio Cominty, JIRA)"
-    },
-    {
-      "title": "Agile",
-      "text": "Agile (SCRUM, Kanban, Scrum Master)"
+      "title": "Angular",
+      "cssclass": "angular",
+      "level": "expert",
+      "point": "206",
+      "percent": "83nd percentile",
+      "verified": "05.01.2018"
+    },{
+      "title": "ASP.NET Core",
+      "cssclass": "asp-net-core",
+      "level": "expert",
+      "point": "204",
+      "percent": "82nd percentile",
+      "verified": "24.08.2018"
+    },{
+      "title": "ASP.NET MVC",
+      "cssclass": "asp-net",
+      "level": "expert",
+      "point": "217",
+      "percent": "87nd percentile",
+      "verified": "22.12.2017"
+    },{
+      "title": "AngularJS",
+      "cssclass": "angular-js",
+      "level": "expert",
+      "point": "205",
+      "percent": "82nd percentile",
+      "verified": "20.10.2017"
+    },{
+      "title": "Javascript",
+      "cssclass": "javascript",
+      "level": "expert",
+      "point": "210",
+      "percent": "85nd percentile",
+      "verified": "12.10.2017"
+    },{
+      "title": "React",
+      "cssclass": "react",
+      "level": "proficient",
+      "point": "113",
+      "percent": "27th percentile",
+      "verified": "18.12.2017"
     }
-  ]
+      ]

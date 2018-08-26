@@ -6,6 +6,7 @@ import { SharedModule } from "../shared/shared.module";
 import { Routes, RouterModule } from "@angular/router";
 import { WorkService } from "./work/work.service";
 import { PersonalService } from "./about/personal.service";
+import { SkillsComponent } from './work/skills/skills.component';
 
 const routes: Routes = [
   { path: "about", component: AboutComponent },
@@ -16,7 +17,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [SharedModule, RouterModule.forChild(routes)],
-  declarations: [AboutComponent, ContactComponent, WorkComponent],
+  declarations: [AboutComponent, ContactComponent, WorkComponent, SkillsComponent],
   providers: [
     WorkService,
     PersonalService
